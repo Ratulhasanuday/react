@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table with Button</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  .number-column {
+    width: 30px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th ></th>
+    <th>Header </th>
+    <th>Header </th>
+    <th>Header </th>
+    <th></th> <!-- Empty column for the button -->
+  </tr>
+  <tr>
+    <td >1</td>
+    <td>Data 1</td>
+    <td>Data 2</td>
+    <td>Data 3</td>
+    <td><button>Button 1</button></td>
+  </tr>
+</table>
+
+</body>
+</html>
